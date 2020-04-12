@@ -5,7 +5,7 @@ $(document).ready(function(){
 		var userGuess = $(".numberInput").val();
 		var textToChange = $(".higherOrLowerTxt");
 		if(userGuess == numberToGuess) {
-			textToChange.text("You won! It took you " + numberOfGuesses + " guesses");
+			textToChange.text("You won! It took you " + numberOfGuesses + " guesses.");
 		}
 
 		if(userGuess < numberToGuess) {
